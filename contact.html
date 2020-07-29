@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 검색 엔진용 설명 및 키워드 -->
+    <meta name="description" content="호텔 BT에 오신 것을 환영합니다.">
+    <meta name="keywords" content="호텔, 부산 호텔, 호텔 예약">
+    <title>Hotel BT | Welcome</title>
+    <!-- 폰트오썸 아이콘 CDN -->
+    <script src="https://kit.fontawesome.com/173255a2a2.js" crossorigin="anonymous"></script>
+    <!-- 메인 CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 모바일 CSS -->
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+</head>
+<body>
+    <header>
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">HBT</a></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="current">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- contact form 섹션 -->
+    <section id="contack-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+            <p>Please fill out the form below to contack us</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn w-100">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact info -->
+    <section id="contact-info" class="bg-dark">
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h3>Location</h3>
+                <p>50 Main st, Boston MA</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>Phone Number</h3>
+                <p>(617) 555-5555</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope fa-3x"></i>
+                <h3>Email Address</h3>
+                <p>frontdesk@hotelbt.co</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer 섹션 -->
+    <div class="clr"></div>
+    <footer id="main-footer">
+        <p>Hotel BT &copy; 2020, All Rights Reserved</p>
+    </footer>
+</body>
+</html>
